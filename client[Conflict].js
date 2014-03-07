@@ -10,15 +10,14 @@ var ws;
 if (typeof(window) === 'undefined')
 {
     console.log('running on node');
-    var WebSocketNode = require('ws');
-    ws = new WebSocketNode(url);
+    var websocket1 = require('ws');
+    ws = new websocket1(url);
 }
 else
 {
     console.log('running on browser');
-    ws = new WebSocket(url); // native WebSocket on browser
+    ws = new WebSocket(url);
 }
-
 var WebSocketStream = require('stream-websocket');
 
 var c = new WebSocketStream(ws);
