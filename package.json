@@ -1,0 +1,30 @@
+{
+  "name": "rpc-stream-websocket-test",
+  "version": "0.0.1",
+  "description": "test project for rpc-stream-websocket modules",
+  "main": "app.js",
+  "scripts":
+  {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/kenokabe/rpc-stream-websocket-test"
+  },
+  "author": "Ken OKABE",
+  "license": "MIT",
+  "bugs":
+  {
+    "url": "https://github.com/kenokabe/rpc-stream-websocket-test/issues"
+  },
+  "homepage": "https://github.com/kenokabe/rpc-stream-websocket-test",
+  "dependencies":
+  {
+    "rpc-streamx": "*",
+    "stream-websocket": "*",
+    "ws": "*"
+  },
+  "devDependencies":
+  {}
+}
